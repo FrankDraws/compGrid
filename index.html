@@ -1,150 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale = 0.86, maximum-scale=3.0, minimum-scale=0.86"> -->
-    <title>compGrid</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="app.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>compGrid</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="app-flex.css" />
 </head>
+
 <body>
-    <table id="container">
-        <thead>
-            <tr>
-                <th class="product bronze">BRONZE</th>
-                <th class="product silver">SILVER</th>
-                <th class="product gold">GOLD</th>
-                <th class="product platinum">PLATINUM</th>
-            </tr>
-            <!--     tr>th*4>button{BUY} -->
-        </thead>
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number one</td>
-        </tr>
-        <tr>
-            <td>
-                <p>Lorem ipsum dolor 40% amet.</p>
-            </td>
-            <td>
-                <p>Lorem ipsum dolor 40% amet.</p>
-            </td>
-            <td>
-                <p>Lorem ipsum dolor 40% amet.</p>
-            </td>
-            <td>
-                <p>Lorem ipsum dolor 40% amet.</p>
-            </td>
-        </tr>
-    
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number two</td>
-        </tr>
-        <tr>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"></td>
-            <td class="checks"></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-        </tr>
-    
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number three</td>
-        </tr>
-        <tr>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"></td>
-            <td class="checks"></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-        </tr>
-    
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number four</td>
-        </tr>
-        <tr>
-            <td>
-                <p>Unavailable</p>
-            </td>
-            <td>
-                <p>Unavailable</p>
-            </td>
-            <td>
-                <p>Unavailable</p>
-            </td>
-            <td>
-                <p>Unavailable</p>
-            </td>
-        </tr>
-    
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number five</td>
-        </tr>
-        <tr>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks">Times may vary</td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-        </tr>
-    
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number six</td>
-        </tr>
-        <tr>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks">Times may vary</td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-        </tr>
-    
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number seven</td>
-        </tr>
-        <tr>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks">Times may vary</td>
-    
-        </tr>
-    
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number eight</td>
-        </tr>
-        <tr>
-            <td class="checks">Times may vary</td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"></td>
-        </tr>
-    
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number nine</td>
-        </tr>
-        <tr>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-        </tr>
-    
-        <tr>
-            <td colspan="4" class="subhead">Subheading tile number ten</td>
-        </tr>
-        <tr>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-            <td class="checks"><i class="fa fa-check"></i></td>
-        </tr>
-    </table>
-    
-    <div id="tabbar">
-        <div><button>BUY</button></div>
-        <div><button>BUY</button></div>
-        <div><button>BUY</button></div>
-        <div><button>BUY</button></div>
+  <div id="container">
+    <div id="header">
+      <div class="product bronze">
+        <p>BRONZE</p>
+      </div>
+      <div class="product silver">
+        <p>SILVER</p>
+      </div>
+      <div class="product gold">
+        <p>GOLD</p>
+      </div>
+      <div class="product platinum">
+        <p>PLATINUM</p>
+      </div>
     </div>
+
+    <div class="title">
+      <p>Subheading title number one</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number two</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number three</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number four</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number five</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number six</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number seven</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number eight</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number nine</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number ten</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+    <div class="title">
+      <p>Subheading title number eleven</p>
+    </div>
+    <div class="cells">
+      <div class="item item-01">
+        <img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-02">
+        <p>Lorem ipsum dolor 40% amet.</p>
+      </div>
+      <div class="item item-03"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+      <div class="item item-04"><img src="https://img.icons8.com/officel/30/000000/checkmark.png" />
+      </div>
+    </div> <!-- END CELLS -->
+
+  </div> <!-- END CONTAINER -->
 </body>
+
 </html>

@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: calc(100vw - 1em);
+}
+* {
+  box-sizing: content-box;
+}
+table {
+  color: #333;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th {
+  height: 55px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+td {
+  padding: 1em;
+}
+
+#tabbar {
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+  /*   width: 100vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0.5em;
+}
+#tabbar div {
+  width: 25%;
+}
+button {
+  background: #008800;
+  border: 0;
+  height: auto;
+  width: 75%;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10%;
+}
+
+.checks {
+  text-align: center;
+}
+.product {
+  color: #fff;
+}
+.bronze {
+  background: #8cc63e;
+}
+.silver {
+  background: #86489c;
+}
+.gold {
+  background: #1ba5c0;
+}
+.platinum {
+  background: #f5a623;
+}
+.fa {
+  font-size: 1.3em;
+  color: #004e91;
+  /*   margin: 8px; */
+}
+.subhead {
+  text-align: center;
+  background: #d8d8d8;
+  height: 50px;
+  /*   padding: 1em 0; */
+}

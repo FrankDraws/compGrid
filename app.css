@@ -121,4 +121,5 @@ button {
     height: 45px;
   color: #fff;
   width: 20%;
+  cursor: pointer;
 }

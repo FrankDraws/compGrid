@@ -9,7 +9,7 @@ body {
 }
 
 }
-table {
+#container {
   color: #333;
   border-collapse: collapse;
   border-spacing: 0;
@@ -26,15 +26,15 @@ td {
 }
 
 #tabbar {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   background-color: #fff;
-  /* width: 100vmin; */
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* padding: 1em 0; */
+  padding: 1em;
 }
 #tabbar div {
   width: 25%;

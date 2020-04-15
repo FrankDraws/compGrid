@@ -70,7 +70,7 @@ body {
 */
 .title {
   width: 100%;
-  background-color: #d8d8d8;
+  background-color: #f0f0f0;
   text-align: center;
 }
 .cells {
@@ -103,16 +103,14 @@ body {
   align-items: center;
   width: 100%;
   height: 65px;
-  background-color: #fff;
+  background-color: #f9f9f9;
   position: sticky;
   bottom: 0;
   padding: 0 .7em;
+  border-top: 1px solid #dbdbdb;
 }
 .btn {
   width: 25%;
-
-  outline: 1px solid red;
-
 }
 button {
   background-color: #008800;

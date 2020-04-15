@@ -34,7 +34,7 @@ td {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 1em 0.5em;
+  padding: 1em 0;
 }
 #tabbar div {
   width: 25%;

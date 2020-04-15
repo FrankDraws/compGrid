@@ -2,7 +2,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  max-width: calc(100vw - 1em);
+  /* max-width: calc(100vw - 1em); */
+  font-family: "Helvetica", sans-serif;
 }
 * {
   box-sizing: content-box;

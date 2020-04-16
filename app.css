@@ -21,8 +21,10 @@ body {
 */
 .topSection {
   max-width: 600px;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+
+  outline: 1px solid red;
 }
 /* 
     / / / / CONTAINER  
@@ -53,24 +55,25 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  background-color: #fff;
 }
 .product p {
   text-align: center;
-  color: #fff;
+  color: #333;
   font-weight: 900;
   font-size: 0.7em;
 }
 .bronze {
-  background: #8cc63e;
+  border-bottom: 8px solid #8cc63e;
 }
 .silver {
-  background: #86489c;
+  border-bottom: 8px solid #86489c;
 }
 .gold {
-  background: #1ba5c0;
+  border-bottom: 8px solid #1ba5c0;
 }
 .platinum {
-  background: #f5a623;
+  border-bottom: 8px solid #f5a623;
 }
 
 /* 
@@ -84,8 +87,10 @@ body {
 }
 .title {
   width: 100%;
-  /* background-color: #f0f0f0; */
-  text-align: center;
+}
+.title p {
+  text-align: left;
+  padding: 0 0 0 1em;
 }
 .cells {
   display: flex;

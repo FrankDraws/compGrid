@@ -180,14 +180,14 @@ button {
 .nav,
 .ticketWidget,
 h3 {
-  z-index: 0;
+  z-index: -1;
 }
 #header {
-  z-index: 10000;
+  z-index: 50;
 }
 .cr {
-  z-index: 7000;
+  z-index: 30;
 }
 #buytab {
-  z-index: 10000;
+  z-index: 50;
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>compGrid Home</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <style>
         body,
         html {
@@ -26,12 +27,13 @@
 
         #container {
             background-color: #ffffff;
-            width: 75vw;
+            max-width: 75vw;
             height: auto;
-            border-radius: 12px;
+            border-radius: 15px 15px 50px 50px;
             padding: 1.3em;
             margin-top: 3em;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            overflow: hidden;
         }
 
         h2 {
@@ -46,7 +48,7 @@
             cursor: pointer;
             color: dodgerblue;
             text-decoration: none;
-            border-bottom: 2px solid dodgerblue;
+            padding: 1em;
         }
 
         .note {
@@ -54,8 +56,18 @@
             margin: 0;
         }
 
-        p {
-            padding-bottom: 1.3em;
+        .link {
+            display: block;
+            text-align: center;
+            /* border-bottom: solid #dbdbdb; */
+            /* border-width: thin; */
+            padding: .3em;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
         }
     </style>
 </head>
@@ -64,11 +76,21 @@
     <div id="container">
         <h2>compGrid Home</h1>
             <p class="note">Please view the following on mobile only.</p>
-            <p><a href="compGrid01/" target="_blank" rel="noopener">Study 1</a></p>
-            <p><a href="compGrid02/" target="_blank" rel="noopener noreferrer">Study 2</a></p>
-            <p><a href="compGrid03/" target="_blank" rel="noopener noreferrer">Study 3</a></p>
-            <p><a href="compGrid04/" target="_blank" rel="noopener noreferrer">Study 4</a></p>
+
+            <p class="link"><a href="compGrid01/" target="_blank" rel="noopener">Study 1</a></p>
+            <hr>
+            <p class="link"><a href="compGrid02/" target="_blank" rel="noopener noreferrer">Study 2</a></p>
+            <hr>
+            <p class="link"><a href="compGrid03/" target="_blank" rel="noopener noreferrer">Study 3</a></p>
+            <hr>
+            <p class="link"><a href="compGrid04/" target="_blank" rel="noopener noreferrer">Study 4</a></p>
+            <!-- <hr> -->
     </div>
+
+    <script>
+        TweenMax.staggerFrom("#container, .link, hr", 0.8, { opacity: 0, y: 200, delay: 0.5, }, 0.2);
+
+    </script>
 </body>
 
 </html>

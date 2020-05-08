@@ -79,7 +79,7 @@ section {
 
 #passes {
     width: 100vw;
-    height: 162px;
+    /* height: 162px; */
     /* z-index: 10; */
     /* position: sticky;
     position: -webkit-sticky;
@@ -247,9 +247,15 @@ section {
 
 #header {
     display: flex;
+    flex-direction: column;
     width: 100%;
     /* height: 65px; */
+}
+
+#tix {
     background-color: #fff;
+    display: flex;
+    /* flex-direction: row; */
 }
 
 .product {
@@ -299,7 +305,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 47px;
     background-color: #f9f9f9;
     padding: 0 .7em;

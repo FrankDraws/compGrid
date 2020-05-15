@@ -74,7 +74,7 @@ section {
     z-index: 10;
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
+    top: -60px;
 }
 
 #passes {
@@ -104,7 +104,8 @@ section {
 
 .ticketWidget {
     position: sticky;
-    top: 60px;
+    position: -webkit-sticky;
+    top: -60px;
     z-index: 5;
 }
 

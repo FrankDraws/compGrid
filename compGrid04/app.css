@@ -61,36 +61,35 @@ h3 {
 section {
     width: 100vw;
     height: 100%;
-    /* position: relative; */
 }
 
 /* 
     / / / / STICKY  & LAYERING
 */
 
-#topSection {
+/* #topSection {
     width: 100vw;
     height: 120px;
-    /* z-index: 10; */
-    /* position: sticky;
+    z-index: 10;
+    position: sticky;
     position: -webkit-sticky;
-    top: -60px; */
-}
+    top: -60px;
+} */
 
 #passes {
     width: 100vw;
     /* height: 162px; */
     /* z-index: 10; */
-    /* position: sticky;
+    position: sticky;
     position: -webkit-sticky;
-    top: 0; */
+    top: 10px;
 }
 
 #tixWrap {
     position: sticky;
     position: -webkit-sticky;
-    top: 60px;
-    z-index: 10;
+    top: 0;
+    /* z-index: 10; */
 }
 
 #grid {

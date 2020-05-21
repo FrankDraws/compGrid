@@ -171,6 +171,11 @@ section {
     padding-left: 1em;
 }
 
+.stick2 {
+    position: fixed;
+    top: 0;
+}
+
 /* .circle {
   border-radius: 50%;
   width: 45px;
